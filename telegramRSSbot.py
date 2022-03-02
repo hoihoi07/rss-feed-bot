@@ -131,7 +131,8 @@ def cmd_help(update, context):
         "\n/remove !Title! removes the RSS link" +
         "\n/list Lists all the titles and the RSS links from the DB" +
         "\n/test Inbuilt command that fetches a post from Reddits RSS." +
-        "\n\nThe current chatId is: " + str(update.message.chat.id))
+        "\n\nThe current chatId is: " +
+        "\nRate Us On Our Channel [Jetbots](https://t.me/jetbots)" + str(update.message.chat.id))
 
 
 def rss_monitor(context):
